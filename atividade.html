@@ -1,0 +1,225 @@
+<html lang="pt-br"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Boldonse&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <style>
+    body{
+      background-color: #08090a;
+      font-family: Roboto;
+      }
+
+    .titulo{
+      font-family: Boldonse;
+    }
+    .main-teams h1 {
+  color: #ffffff;
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.main-teams section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.main-teams img {
+  width: 200px;
+  height: 200px;
+  border-radius: 0.6rem;
+}
+
+.teams {
+  background-color: #1f262e;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  border-radius: 0.6rem;
+
+
+}
+
+.teams .img-title {
+  margin: 10px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.teams .item-texto {
+  color: #ffffff;
+  font-size: 1.25rem;
+  text-align: justify;
+  margin: 10px;
+}
+.container-teams{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.descricao-meta {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#button{
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: red;
+  font-family: Roboto ;
+  font-size: medium;
+  font-weight: bold;
+}
+#button:hover{
+  background-color: rgb(247, 72, 72);
+}
+
+  </style>
+  <title>Formula 1 Teams</title>
+</head>
+<body>
+  <main class="main-teams">
+    <section>
+      <a href="https://www.formula1.com/en/teams" target="_blank"><h1 class="titulo">Fórmula 1 Teams </h1></a>
+      <button id="button" onclick="MostrarDescricao()">Mostrar Descrições</button>
+      <div id="teams-container" class="container-teams"><div class="team">
+        <div class="teams">
+          <div class="img-title">
+            <img src="https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/2018-redesign-assets/team%20logos/red%20bull" alt="Red Bull Racing">
+            <h2>Red Bull Racing</h2>
+            </div>  
+            <div class="item-texto">
+            <p class="descricao-meta">A Red Bull Racing foi fundada em 2005 e rapidamente se tornou uma força dominante na Fórmula 1. Desde a sua criação, a equipe conquistou múltiplos campeonatos mundiais, com Sebastian Vettel e Max Verstappen. Os atuais pilotos são Max Verstappen e Sergio Pérez.</p>
+            
+            </div>
+          
+        </div></div><div class="team">
+        <div class="teams">
+          <div class="img-title">
+            <img src="https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/2018-redesign-assets/team%20logos/ferrari" alt="Scuderia Ferrari">
+            <h2>Scuderia Ferrari</h2>
+            </div>  
+            <div class="item-texto">
+            <p class="descricao-meta">A Scuderia Ferrari é a equipe mais antiga e bem-sucedida da história da Fórmula 1. Fundada em 1929, ela competiu em todas as temporadas de Fórmula 1 desde 1950. A Ferrari é conhecida por seu prestígio e história no esporte. Os atuais pilotos são Charles Leclerc e Carlos Sainz.</p>
+            
+            </div>
+          
+        </div></div><div class="team">
+        <div class="teams">
+          <div class="img-title">
+            <img src="https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/2018-redesign-assets/team%20logos/mercedes" alt="Mercedes-AMG Petronas">
+            <h2>Mercedes-AMG Petronas</h2>
+            </div>  
+            <div class="item-texto">
+            <p class="descricao-meta">Mercedes retornou à Fórmula 1 em 2010 e desde então estabeleceu uma era dominante, especialmente com o piloto Lewis Hamilton. A equipe conquistou inúmeros títulos de pilotos e construtores. Os atuais pilotos são Lewis Hamilton e George Russell.</p>
+            
+            </div>
+          
+        </div></div><div class="team">
+        <div class="teams">
+          <div class="img-title">
+            <img src="https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/2018-redesign-assets/team%20logos/haas" alt="Haas F1 Team">
+            <h2>Haas F1 Team</h2>
+            </div>  
+            <div class="item-texto">
+            <p class="descricao-meta">Haas é uma equipe americana que estreou na Fórmula 1 em 2016. Embora seja uma das equipes mais jovens, tem feito progressos notáveis no grid. Os atuais pilotos são Kevin Magnussen e Nico Hülkenberg.</p>
+            
+            </div>
+          
+        </div></div><div class="team">
+        <div class="teams">
+          <div class="img-title">
+            <img src="https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/2018-redesign-assets/team%20logos/rb" alt="VisaCashApp Racing">
+            <h2>VisaCashApp Racing</h2>
+            </div>  
+            <div class="item-texto">
+            <p class="descricao-meta">Anteriormente conhecida como AlphaTauri e Toro Rosso, a equipe VisaCashApp é uma equipe satélite da Red Bull. Ela tem sido usada como uma plataforma para o desenvolvimento de novos talentos na Fórmula 1. Os atuais pilotos são Yuki Tsunoda e Daniel Ricciardo.</p>
+            
+            </div>
+          
+        </div></div><div class="team">
+        <div class="teams">
+          <div class="img-title">
+            <img src="https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/2018-redesign-assets/team%20logos/aston%20martin%202024" alt="Aston Martin Aramco Cognizant">
+            <h2>Aston Martin Aramco Cognizant</h2>
+            </div>  
+            <div class="item-texto">
+            <p class="descricao-meta">Aston Martin retornou à Fórmula 1 em 2021. A equipe busca reconstruir seu sucesso, liderada por seu proprietário Lawrence Stroll. Os atuais pilotos são Fernando Alonso e Lance Stroll.</p>
+            
+            </div>
+          
+        </div></div><div class="team">
+        <div class="teams">
+          <div class="img-title">
+            <img src="https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/2018-redesign-assets/team%20logos/mclaren" alt="McLaren F1 Team">
+            <h2>McLaren F1 Team</h2>
+            </div>  
+            <div class="item-texto">
+            <p class="descricao-meta">McLaren é uma das equipes mais icônicas da Fórmula 1, com sucesso em várias décadas desde os anos 1970. Embora tenha enfrentado dificuldades nos últimos anos, a equipe está em recuperação. Os atuais pilotos são Lando Norris e Oscar Piastri.</p>
+            
+            </div>
+          
+        </div></div><div class="team">
+        <div class="teams">
+          <div class="img-title">
+            <img src="https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/2018-redesign-assets/team%20logos/alpine" alt="BWT Alpine F1 Team">
+            <h2>BWT Alpine F1 Team</h2>
+            </div>  
+            <div class="item-texto">
+            <p class="descricao-meta">A Alpine, anteriormente Renault, é uma equipe francesa com uma rica história na Fórmula 1, tendo vencido campeonatos com Fernando Alonso em 2005 e 2006. Os atuais pilotos são Esteban Ocon e Pierre Gasly.</p>
+            
+            </div>
+          
+        </div></div><div class="team">
+        <div class="teams">
+          <div class="img-title">
+            <img src="https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/2018-redesign-assets/team%20logos/kick%20sauber" alt="Kick Sauber">
+            <h2>Kick Sauber</h2>
+            </div>  
+            <div class="item-texto">
+            <p class="descricao-meta">Anteriormente conhecida como Sauber e Alfa Romeo, a Kick Sauber tem uma longa tradição de desenvolvimento de jovens talentos e inovação técnica. Os atuais pilotos são Valtteri Bottas e Zhou Guanyu.</p>
+            
+            </div>
+          
+        </div></div><div class="team">
+        <div class="teams">
+          <div class="img-title">
+            <img src="https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/2018-redesign-assets/team%20logos/williams" alt="Williams Racing">
+            <h2>Williams Racing</h2>
+            </div>  
+            <div class="item-texto">
+            <p class="descricao-meta">Williams é uma das equipes mais históricas da Fórmula 1, tendo conquistado diversos títulos mundiais nos anos 80 e 90. A equipe enfrenta desafios para voltar ao topo do grid. Os atuais pilotos são Alexander Albon e Franco Colapinto.</p>
+            
+            </div>
+          
+        </div></div></div>
+    </section>
+  </main> 
+  <script>
+    
+    const descricoes = document.querySelectorAll(".descricao-meta")
+    function MostrarDescricao(){
+      descricoes.forEach(descricao =>{
+        if(window.getComputedStyle(descricao).display === "none"){
+        descricao.style.display = "block"
+      } else{
+        descricao.style.display = "none"
+      }
+      })
+      
+
+    }
+  </script>
+  
+
+</body>
+</html>
